@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskElementsInView", "MaskElementsInView\MaskElementsInView.csproj", "{94CFB510-A427-4020-B2AA-B272952AAEE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{E2A8DFC3-2297-4BE2-B25E-BCE7EAAC61D3}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94CFB510-A427-4020-B2AA-B272952AAEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CFB510-A427-4020-B2AA-B272952AAEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CFB510-A427-4020-B2AA-B272952AAEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CFB510-A427-4020-B2AA-B272952AAEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2A8DFC3-2297-4BE2-B25E-BCE7EAAC61D3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19F5ADD9-A659-47FB-8968-439688FF4D73}
+	EndGlobalSection
+EndGlobal
